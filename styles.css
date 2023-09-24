@@ -1,0 +1,45 @@
+/* selector universal
+ej:
+*{ color: blue;
+    
+}
+
+/*selector secundario, por ejemplotomar una etiqueta especifica y aplicarle un criteri
+o aplicar el criterio a una etiqueta que este dentro de otra etiqueta como en este caso
+
+p>b{
+    color: brown;
+}
+*/
+/*selector desendiente
+div p {
+    color: chartreuse;
+}
+*/
+/* selector adyacente o hermano
+afecta a las etiquetas que estan a posterior de la primer etiqueta
+div ~ p{
+    color: chocolate;
+}
+*/
+/*speudo clases
+a {
+    color: chartreuse;
+}
+a:active{
+    color: aqua;
+    font-size: larger;
+}
+a:hover{
+    color: blueviolet;
+}
+*/
+/*spseudo elementos*/
+p:first-line{
+    background-color: bisque;
+
+}
+h3:first-letter{
+    color: darkgreen;
+    font-size: x-large;    
+}

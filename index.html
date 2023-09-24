@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso DW Los Cocos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div>
@@ -238,7 +239,9 @@
             <label for="radio">SI</label>
             <input type="radio" id="no" name="experiencia">
             <label for="radio">NO</label>
-            <p>Intereses</p> <!--caja de seleccion-->
+            <fieldset >
+                <legend>Intereses</legend>
+            <!--caja de seleccion dentro de un fieldset-->
             <input type="checkbox" id="deporte" name="intereses">
             <label for="deporte">Deportes</label><br>
             <input type="checkbox" id="musica" name="intereses">
@@ -247,6 +250,7 @@
             <label for="informatica">Informatica</label><br>
             <input type="checkbox" id="videojuegos" name="intereses">
             <label for="videojuegos">Video juegos</label><br>
+            </fieldset>
             
             <p>Provincia donde vives</p>
             <select id="provincia">
